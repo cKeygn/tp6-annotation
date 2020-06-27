@@ -28,9 +28,6 @@ class Service extends \think\Service
 
         $this->setCustomAnnotation();
 
-        //注解路由
-        $this->registerAnnotationRoute();
-
         //自动注入
         $this->autoInject();
     }
